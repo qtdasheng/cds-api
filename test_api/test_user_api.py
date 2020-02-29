@@ -2,14 +2,17 @@ import requests
 
 from unittest import TestCase
 
-HOST = '127.0.0.1'
-PORT = 5000
+HOST = '139.129.93.165'
+PORT = 5001
+
+# HOST = 'localhost'
+# PORT = 5000
 
 base_url = f'http://{HOST}:{PORT}'
 
 data = {
     'phone': '15191292433',
-    'token': 'e165f53199c1c5f33da358d87957b715'
+    'token': '8896e19de5232acf8ae368a01e9b085a'
 }
 
 
@@ -22,9 +25,9 @@ class TestUserApi(TestCase):
     def test_b_regist(self):
         url = base_url + '/api/regist/'
         resp = requests.post(url, json={
-            'name': 'admin',
+            'name': '李少鹏',
             'phone': data['phone'],
-            'code': '3862',
+            'code': '1480',
             'password': 'admin'  # 密文要求（前端）：需要使用hash算法
         })
         print(resp.json())

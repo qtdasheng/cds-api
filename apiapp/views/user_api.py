@@ -58,7 +58,7 @@ def regist():
         user.name = data.get('name')
         user.phone = data.get('phone')
         user.password = data.get('password')
-        user.create_time = datetime.now()
+        user.ucretime = datetime.now()
 
         session.add(user)
         session.commit()
