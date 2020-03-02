@@ -278,6 +278,7 @@ class TZhuanfa(db.Model):
     __tablename__ = 't_zhuanfa'
 
     zfid = db.Column(db.Integer, primary_key=True)
+    zfurl = db.Column(db.String(200))
     cpid = db.Column(db.ForeignKey('t_caipu.cpid'), nullable=False, index=True)
     uid = db.Column(db.ForeignKey('t_user.uid'), nullable=False, index=True)
 

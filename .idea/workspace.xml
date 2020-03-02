@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apiapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apiapp/views/user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiapp/views/user_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api/test_user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api/test_user_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +55,8 @@
       <recent name="F:\PythonProjectQF\cds_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_user_api.TestUserApi.test_c_login">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_user_api.TestUserApi.test_3_topcaipu">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cds_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,12 +64,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apiapp/views" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apiapp/views/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_user_api.TestUserApi.test_a_send_code" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_user_api.TestUserApi.test_1_allfans" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="cds_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +89,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_api.TestUserApi.test_a_send_code&quot;" />
+      <option name="_new_target" value="&quot;test_user_api.TestUserApi.test_1_allfans&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_user_api.TestUserApi.test_b_regist" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_user_api.TestUserApi.test_2_searchcaipu" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="cds_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +104,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_api.TestUserApi.test_b_regist&quot;" />
+      <option name="_new_target" value="&quot;test_user_api.TestUserApi.test_2_searchcaipu&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_user_api.TestUserApi.test_c_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_user_api.TestUserApi.test_3_topcaipu" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="cds_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +119,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_api.TestUserApi.test_c_login&quot;" />
+      <option name="_new_target" value="&quot;test_user_api.TestUserApi.test_3_topcaipu&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_user_api.TestUserApi.test_d_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_user_api.TestUserApi.test_z_sumfollowed" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="cds_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,17 +134,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_api.TestUserApi.test_d_login&quot;" />
+      <option name="_new_target" value="&quot;test_user_api.TestUserApi.test_z_sumfollowed&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_user_api.TestUserApi.test_c_login" />
-        <item itemvalue="Python tests.Unittests for test_user_api.TestUserApi.test_a_send_code" />
-        <item itemvalue="Python tests.Unittests for test_user_api.TestUserApi.test_b_regist" />
-        <item itemvalue="Python tests.Unittests for test_user_api.TestUserApi.test_d_login" />
-        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python tests.Unittests for test_user_api.TestUserApi.test_3_topcaipu" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python tests.Unittests for test_user_api.TestUserApi.test_2_searchcaipu" />
+        <item itemvalue="Python tests.Unittests for test_user_api.TestUserApi.test_1_allfans" />
+        <item itemvalue="Python tests.Unittests for test_user_api.TestUserApi.test_z_sumfollowed" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +182,7 @@
       <workItem from="1582976601641" duration="2423000" />
       <workItem from="1582981772373" duration="1927000" />
       <workItem from="1582986891130" duration="9000" />
+      <workItem from="1583126934608" duration="29945000" />
     </task>
     <servers />
   </component>
@@ -190,52 +194,82 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582541877839" />
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1582979334958">
+    <state width="1323" height="188" key="GridCell.Tab.0.bottom" timestamp="1583159654737">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582979334958" />
-    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1582979334958">
+    <state width="1323" height="188" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583159654737" />
+    <state width="1323" height="188" key="GridCell.Tab.0.center" timestamp="1583159654737">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582979334958" />
-    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1582979334958">
+    <state width="1323" height="188" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583159654737" />
+    <state width="1323" height="188" key="GridCell.Tab.0.left" timestamp="1583159654736">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582979334958" />
-    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1582979334958">
+    <state width="1323" height="188" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583159654736" />
+    <state width="1323" height="188" key="GridCell.Tab.0.right" timestamp="1583159654737">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582979334958" />
-    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1582719482524">
+    <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583159654737" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1583153946815">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582719482524" />
-    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1582719482523">
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583153946815" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1583153946815">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1582719482523" />
-    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1582719482523">
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1583153946815" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1583153946815">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1582719482523" />
-    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1582719482524">
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1583153946815" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1583153946815">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1582719482524" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1583153946815" />
     <state x="184" y="10" key="SettingsEditor" timestamp="1582683752193">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="10" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582683752193" />
+    <state width="691" height="377" key="XDebugger.FullValuePopup" timestamp="1583127810341">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="691" height="377" key="XDebugger.FullValuePopup/0.0.1366.738@0.0.1366.738" timestamp="1583127810341" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_c_login.coverage" NAME="Unittests for test_user_api.TestUserApi.test_c_login Coverage Results" MODIFIED="1582979207566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_f_update_userinfo.coverage" NAME="Unittests for test_user_api.TestUserApi.test_f_update_userinfo Coverage Results" MODIFIED="1583139478538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$demo.coverage" NAME="demo Coverage Results" MODIFIED="1583159511166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiapp/views" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_f_get_usercaipu.coverage" NAME="Unittests for test_user_api.TestUserApi.test_f_get_usercaipu Coverage Results" MODIFIED="1583130148035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_n_querygoods.coverage" NAME="Unittests for test_user_api.TestUserApi.test_n_querygoods Coverage Results" MODIFIED="1583143587750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_y_guanzhu.coverage" NAME="Unittests for test_user_api.TestUserApi.test_y_guanzhu Coverage Results" MODIFIED="1583154991949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_z_sumfollowed.coverage" NAME="Unittests for test_user_api.TestUserApi.test_z_sumfollowed Coverage Results" MODIFIED="1583155299005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_p_updategoods.coverage" NAME="Unittests for test_user_api.TestUserApi.test_p_updategoods Coverage Results" MODIFIED="1583147422681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_c_login.coverage" NAME="Unittests for test_user_api.TestUserApi.test_c_login Coverage Results" MODIFIED="1583132519356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
     <SUITE FILE_PATH="coverage/cds_api$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1582719765282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/cds_api$Unittests_in_test_user_api_py.coverage" NAME="Unittests in test_user_api.py Coverage Results" MODIFIED="1582719035867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_q_dianzan.coverage" NAME="Unittests for test_user_api.TestUserApi.test_q_dianzan Coverage Results" MODIFIED="1583147872737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
     <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi.coverage" NAME="Unittests for test_user_api.TestUserApi Coverage Results" MODIFIED="1582718978457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_b_regist.coverage" NAME="Unittests for test_user_api.TestUserApi.test_b_regist Coverage Results" MODIFIED="1582979166885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_a_send_code.coverage" NAME="Unittests for test_user_api.TestUserApi.test_a_send_code Coverage Results" MODIFIED="1582979189566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/cds_api$server.coverage" NAME="server Coverage Results" MODIFIED="1582683649959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_a_send_code.coverage" NAME="Unittests for test_user_api.TestUserApi.test_a_send_code Coverage Results" MODIFIED="1583140132097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_r_sumdianzan.coverage" NAME="Unittests for test_user_api.TestUserApi.test_r_sumdianzan Coverage Results" MODIFIED="1583148383560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_v_zhuanfa.coverage" NAME="Unittests for test_user_api.TestUserApi.test_v_zhuanfa Coverage Results" MODIFIED="1583151441303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
     <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_d_login.coverage" NAME="Unittests for test_user_api.TestUserApi.test_d_login Coverage Results" MODIFIED="1582977951448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_e_upload_head.coverage" NAME="Unittests for test_user_api.TestUserApi.test_e_upload_head Coverage Results" MODIFIED="1582719743436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_o_delgoods.coverage" NAME="Unittests for test_user_api.TestUserApi.test_o_delgoods Coverage Results" MODIFIED="1583143615671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_m_addgoods.coverage" NAME="Unittests for test_user_api.TestUserApi.test_m_addgoods Coverage Results" MODIFIED="1583143625590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_k_vendorregist.coverage" NAME="Unittests for test_user_api.TestUserApi.test_k_vendorregist Coverage Results" MODIFIED="1583140145922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_g_get_usercaipu.coverage" NAME="Unittests for test_user_api.TestUserApi.test_g_get_usercaipu Coverage Results" MODIFIED="1583140773115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_t_delpinglun.coverage" NAME="Unittests for test_user_api.TestUserApi.test_t_delpinglun Coverage Results" MODIFIED="1583149523680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_x_order.coverage" NAME="Unittests for test_user_api.TestUserApi.test_x_order Coverage Results" MODIFIED="1583154444043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_w_sumzhuanfa.coverage" NAME="Unittests for test_user_api.TestUserApi.test_w_sumzhuanfa Coverage Results" MODIFIED="1583151491190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_s_pinglun.coverage" NAME="Unittests for test_user_api.TestUserApi.test_s_pinglun Coverage Results" MODIFIED="1583151133047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_b_regist.coverage" NAME="Unittests for test_user_api.TestUserApi.test_b_regist Coverage Results" MODIFIED="1583130107491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$server.coverage" NAME="server Coverage Results" MODIFIED="1582683649959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_g_set_usercaipu.coverage" NAME="Unittests for test_user_api.TestUserApi.test_g_set_usercaipu Coverage Results" MODIFIED="1583137156506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_h_del_usercaipu.coverage" NAME="Unittests for test_user_api.TestUserApi.test_h_del_usercaipu Coverage Results" MODIFIED="1583137137869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_i_update_usercaipu.coverage" NAME="Unittests for test_user_api.TestUserApi.test_i_update_usercaipu Coverage Results" MODIFIED="1583138543291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_1_allfans.coverage" NAME="Unittests for test_user_api.TestUserApi.test_1_allfans Coverage Results" MODIFIED="1583156586363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_u_sumpinglun.coverage" NAME="Unittests for test_user_api.TestUserApi.test_u_sumpinglun Coverage Results" MODIFIED="1583151165048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_2_searchcaipu.coverage" NAME="Unittests for test_user_api.TestUserApi.test_2_searchcaipu Coverage Results" MODIFIED="1583157066114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_in_test_user_api_py.coverage" NAME="Unittests in test_user_api.py Coverage Results" MODIFIED="1582719035867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_3_topcaipu.coverage" NAME="Unittests for test_user_api.TestUserApi.test_3_topcaipu Coverage Results" MODIFIED="1583159643172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_l_vendorlogin.coverage" NAME="Unittests for test_user_api.TestUserApi.test_l_vendorlogin Coverage Results" MODIFIED="1583140552816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/cds_api$Unittests_for_test_user_api_TestUserApi_test_e_upload_head.coverage" NAME="Unittests for test_user_api.TestUserApi.test_e_upload_head Coverage Results" MODIFIED="1583130134561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
   </component>
 </project>
