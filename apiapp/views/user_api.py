@@ -11,7 +11,7 @@ from sqlalchemy import or_, and_, not_
 
 import settings
 from db import session
-from apiapp.models import TUser
+from apiapp.models import TUser, TCaipu
 from common import code_, cache_, token_, oss_
 from . import validate_json, validate_params
 
@@ -156,6 +156,8 @@ def modify_auth():
         'state': 3,
         'msg': 'token已无效，尝试重新登录',
     })
+
+
 @blue.route('/upload_head/', methods=["POST"])
 def upload_head():
     # 前端上传图片的两种方式（文件对象上传， base64字符串上传）
@@ -197,11 +199,8 @@ def upload_head():
 @blue.route('/head/', methods=["GET"])
 def get_head():
     token = request.cookies.get('token')  # 1. 从请求参数中获取  2. 从请求头的Cookie中获取
-
     user_id = cache_.get_user_id(token)
-
     user = session.query(TUser).get(user_id)
-
     head_url = cache_.get_head_url(user.head)
     if not head_url:
         head_url = oss_.get_oss_img_url(user.head)
@@ -211,3 +210,48 @@ def get_head():
         'state': 0,
         'head': head_url
     })
+
+
+@blue.route('/caipu/', methods=["GET"])
+def get_caipu():
+    token = request.cookies.get('token')  # 1. 从请求参数中获取  2. 从请求头的Cookie中获取
+    user_id = cache_.get_user_id(token)
+    caipu = session.query(TCaipu).get(user_id)
+    if caipu:
+        return jsonify({
+            'state': 0,
+            'msg': '获取成功',
+            'cpid': caipu.cpid,
+            'cp_title': caipu.cp_title,
+            'cpimg': caipu.cpimg,
+            'cp_info': caipu.cp_info,
+            'cp_url': caipu.cp_url,
+            'cp_cretime': caipu.cp_cretime
+        })
+    else:
+        return jsonify({
+            'state': -1,
+            'msg': "你还未上传菜单!"
+        })
+
+@blue.route('/caipu/', methods=["POST"])
+def set_caipu():
+    token = request.cookies.get('token')  # 1. 从请求参数中获取  2. 从请求头的Cookie中获取
+    user_id = cache_.get_user_id(token)
+    caipu = session.query(TCaipu).get(user_id)
+    if caipu:
+        return jsonify({
+            'state': 0,
+            'msg': '获取成功',
+            'cpid': caipu.cpid,
+            'cp_title': caipu.cp_title,
+            'cpimg': caipu.cpimg,
+            'cp_info': caipu.cp_info,
+            'cp_url': caipu.cp_url,
+            'cp_cretime': caipu.cp_cretime
+        })
+    else:
+        return jsonify({
+            'state': -1,
+            'msg': "你还未上传菜单!"
+        })

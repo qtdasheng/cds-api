@@ -44,7 +44,7 @@ class TCaipu(db.Model):
 
     cpid = db.Column(db.Integer, primary_key=True)
     cp_title = db.Column(db.String(50), nullable=False)
-    cpimg = db.Column(db.String(100), nullable=False)
+    cpimg = db.Column(db.String(200), nullable=False)
     cp_info = db.Column(db.String(200))
     cp_url = db.Column(db.String(200), nullable=False)
     cp_cretime = db.Column(db.DateTime, nullable=False)
@@ -94,7 +94,7 @@ class TGood(db.Model):
 
     gid = db.Column(db.Integer, primary_key=True)
     gname = db.Column(db.String(50), nullable=False)
-    gimg = db.Column(db.String(100), nullable=False)
+    gimg = db.Column(db.String(200), nullable=False)
     gpreprice = db.Column(db.Float(asdecimal=True), nullable=False)
     gprice = db.Column(db.Float(asdecimal=True), nullable=False)
     gnum = db.Column(db.Integer, nullable=False)
@@ -254,7 +254,7 @@ class TUser(db.Model):
     phone = db.Column(db.String(50))
     email = db.Column(db.String(50))
     address = db.Column(db.String(100))
-    head = db.Column(db.String(100))
+    head = db.Column(db.String(200))
     ucretime = db.Column(db.DateTime, nullable=False)
     note = db.Column(db.String(200))
     exp = db.Column(db.Integer)
